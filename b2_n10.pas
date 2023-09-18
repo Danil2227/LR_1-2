@@ -8,6 +8,6 @@ begin
   readln(x);
   a := x div 10;
   b := x mod 10;
-  n := 0;
+  n := a*100+b;
   writeln('ответ= ', a, n, b);
 end. 
