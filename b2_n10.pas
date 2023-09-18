@@ -9,5 +9,5 @@ begin
   a := x div 10;
   b := x mod 10;
   n := a*100+b;
-  writeln('ответ= ', a, n, b);
+  writeln('ответ= ', n);
 end. 
